@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico " />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB KITA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"  >
+        <img class="logo-img" src="assets/icon/partner.png" alt="logo">
+        <h1 class="logo-description">RIZAL</h1>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="#jasa">Jasa</a></li>
+          <li><a href="mailto:pringgandanirizal@gmail.com">Kontak</a></li>
+        </ul>
+      </nav>
+      <button class="btn" onclick="redirInstagram()">Follow</button>
+    </header>
+    <div class="container" >
+      <div class="intro">
+        <p class="title">Hello, Rizal Pringgandani here</p>
+        <p class="description">Ini Adalah saya</p>
+        <img src="assets/foto/foto2.jpg" alt="" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax" id="jasa">
+      <div class="tentang">
+        <p class="title">Saya adalah programer</p>
+        <p class="description">ngoding aja dulu jadinya belakangan</p>
+        <div class="mt-10">
+          <button class="btn" onclick="redirwa()">Mari Kerja sama</button>
+        </div>
+      </div>
+      <div class="container1" >
+        <div class="card" >
+          <div class="card-item">
+            <img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+            <p class="card-title">Pelayanan non stop</p>
+            <p class="card-description">
+              Pelayanan 24jam non stop pagi siang malam gilas
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon"/>
+            <p class="card-title">diskon 40%</p>
+            <p class="card-description">
+              diskon 40% akhir tahun
+            </p>
+          </div>
+          <div class="card-item ">
+            <img src="assets/icon/rating.png" alt="icon 3" class="icon"/>
+            <p class="card-title">1000 pengguna</p>
+            <p class="crad-description">
+              kami telah mendapatkan 1000 pengguna jasa kami yang puas atas pelayanan kami
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title-footer">&copy;Rizal Pringgandani 2023</p>
+    </footer>
+    <script>
+      function redirInstagram(){
+        window.location.href= "https://instagram.com/rizalpringgandani009/"
+      }
+      function redirwa(){
+        window.location.href= "https://wa.me/+628314701602"
+      }
+
+    </script>
+  </body>
+</html>
